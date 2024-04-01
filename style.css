@@ -35,7 +35,7 @@ body{
 }
 
 .banner{
-    height: 200px;
+    height: 250px;
     background-image: url("imagens/0474f3de75fea0fafd34f98fcd398a7a.gif");
     box-sizing: border-box;
     box-shadow: -20px -20px 100px #000fdaf3;
@@ -50,6 +50,7 @@ body{
 
 .banner .container{
     justify-content: center;
+    flex-direction: row;
 }
 
 .banner .container p{
